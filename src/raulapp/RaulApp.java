@@ -18,7 +18,7 @@ public class RaulApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        JOptionPane.showMessageDialog(null, "Bienvenido a la aplicación...");
+        JOptionPane.showMessageDialog(null, "Bienvenido a la aplicación de Raúl...");
     }
     
 }

@@ -1,21 +1,17 @@
-# the composer package lock file and install directory
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# /composer.lock
-/fuel/vendor
+    #java specific
+    *.class
 
-# the fuelphp document
-/docs/
+    #netbeans ignore personal stuff
+    nbproject/
 
-# you may install these packages with `oil package`.
-# http://fuelphp.com/docs/packages/oil/package.html
-# /fuel/packages/auth/
-# /fuel/packages/email/
-# /fuel/packages/oil/
-# /fuel/packages/orm/
-# /fuel/packages/parser/
+    ## generic files to ignore
+    *~
+    *.lock
+    *.DS_Store
+    *.swp
+    *.out
 
-# dynamically generated files
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
-/fuel/app/config/crypt.php
+    # Package Files #
+    *.jar
+    *.war
+    *.ear
